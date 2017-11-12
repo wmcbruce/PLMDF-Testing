@@ -6,8 +6,8 @@
 //  Copyright © 2017 Bill Bruce. All rights reserved.
 //
 
-#import "ViewController.h"
+#import <UIKit/UIKit.h>
 
-@interface LoginViewController : ViewController
+@interface LoginViewController : UIViewController
 
 @end

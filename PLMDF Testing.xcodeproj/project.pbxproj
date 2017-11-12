@@ -13,19 +13,18 @@
 		8A127BB41FB8CBD900FFDFEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A127BB31FB8CBD900FFDFEA /* Assets.xcassets */; };
 		8A127BB71FB8CBD900FFDFEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A127BB51FB8CBD900FFDFEA /* LaunchScreen.storyboard */; };
 		8A127BBA1FB8CBD900FFDFEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A127BB91FB8CBD900FFDFEA /* main.m */; };
-		8A2B0E7C1FB8EAA000FFD57C /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2B0E7B1FB8EAA000FFD57C /* LoginViewController.m */; };
-		8A2B0E801FB8EACE00FFD57C /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2B0E7F1FB8EACE00FFD57C /* MainMenuViewController.m */; };
-		8A2B0E831FB8EAE200FFD57C /* PlayerDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2B0E821FB8EAE200FFD57C /* PlayerDetailViewController.m */; };
-		8A2B0E861FB8EB4800FFD57C /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2B0E851FB8EB4800FFD57C /* CameraViewController.m */; };
-		8A2B0E891FB8EB9F00FFD57C /* SelectPlayerCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2B0E881FB8EB9F00FFD57C /* SelectPlayerCollectionViewController.m */; };
-		8A2B0E8C1FB8EBE700FFD57C /* PlayersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2B0E8B1FB8EBE700FFD57C /* PlayersTableViewController.m */; };
-		8A2B0E8F1FB8EBF200FFD57C /* SignInsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2B0E8E1FB8EBF200FFD57C /* SignInsTableViewController.m */; };
-		8A2B0E921FB8EBFC00FFD57C /* BattlesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2B0E911FB8EBFC00FFD57C /* BattlesTableViewController.m */; };
-		8A2B0E951FB8EC6200FFD57C /* AdminMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2B0E941FB8EC6200FFD57C /* AdminMenuViewController.m */; };
 		8A2B0EAA1FB8EFDC00FFD57C /* NSOperation+SPRKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2B0EA61FB8EFDC00FFD57C /* NSOperation+SPRKit.m */; };
 		8A2B0EAB1FB8EFDC00FFD57C /* SPRAsyncOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2B0EA81FB8EFDC00FFD57C /* SPRAsyncOperation.m */; };
 		8A2B0EAC1FB8EFDC00FFD57C /* SPRSerialQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2B0EA91FB8EFDC00FFD57C /* SPRSerialQueue.m */; };
 		8A2B0EB01FB8F1EC00FFD57C /* BBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2B0EAF1FB8F1EC00FFD57C /* BBHelper.m */; };
+		8A2B0EB41FB8F55F00FFD57C /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2B0EB31FB8F55F00FFD57C /* LoginViewController.m */; };
+		8A2B0EB71FB8F56E00FFD57C /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2B0EB61FB8F56E00FFD57C /* MainMenuViewController.m */; };
+		8A2B0EBA1FB8F57E00FFD57C /* AdminMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2B0EB91FB8F57E00FFD57C /* AdminMenuViewController.m */; };
+		8A2B0EBD1FB8F59F00FFD57C /* PlayersCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2B0EBC1FB8F59F00FFD57C /* PlayersCollectionViewController.m */; };
+		8A2B0EC01FB8F5C400FFD57C /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2B0EBF1FB8F5C400FFD57C /* CameraViewController.m */; };
+		8A2B0EC31FB8F5D400FFD57C /* PlayersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2B0EC21FB8F5D400FFD57C /* PlayersTableViewController.m */; };
+		8A2B0EC61FB8F5E100FFD57C /* SignInsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2B0EC51FB8F5E100FFD57C /* SignInsTableViewController.m */; };
+		8A2B0EC91FB8F5EC00FFD57C /* BattlesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2B0EC81FB8F5EC00FFD57C /* BattlesTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,24 +37,6 @@
 		8A127BB61FB8CBD900FFDFEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A127BB81FB8CBD900FFDFEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A127BB91FB8CBD900FFDFEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8A2B0E7A1FB8EAA000FFD57C /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
-		8A2B0E7B1FB8EAA000FFD57C /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
-		8A2B0E7E1FB8EACE00FFD57C /* MainMenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
-		8A2B0E7F1FB8EACE00FFD57C /* MainMenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
-		8A2B0E811FB8EAE200FFD57C /* PlayerDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayerDetailViewController.h; sourceTree = "<group>"; };
-		8A2B0E821FB8EAE200FFD57C /* PlayerDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayerDetailViewController.m; sourceTree = "<group>"; };
-		8A2B0E841FB8EB4800FFD57C /* CameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
-		8A2B0E851FB8EB4800FFD57C /* CameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
-		8A2B0E871FB8EB9F00FFD57C /* SelectPlayerCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectPlayerCollectionViewController.h; sourceTree = "<group>"; };
-		8A2B0E881FB8EB9F00FFD57C /* SelectPlayerCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectPlayerCollectionViewController.m; sourceTree = "<group>"; };
-		8A2B0E8A1FB8EBE700FFD57C /* PlayersTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayersTableViewController.h; sourceTree = "<group>"; };
-		8A2B0E8B1FB8EBE700FFD57C /* PlayersTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayersTableViewController.m; sourceTree = "<group>"; };
-		8A2B0E8D1FB8EBF200FFD57C /* SignInsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignInsTableViewController.h; sourceTree = "<group>"; };
-		8A2B0E8E1FB8EBF200FFD57C /* SignInsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignInsTableViewController.m; sourceTree = "<group>"; };
-		8A2B0E901FB8EBFC00FFD57C /* BattlesTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BattlesTableViewController.h; sourceTree = "<group>"; };
-		8A2B0E911FB8EBFC00FFD57C /* BattlesTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BattlesTableViewController.m; sourceTree = "<group>"; };
-		8A2B0E931FB8EC6200FFD57C /* AdminMenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdminMenuViewController.h; sourceTree = "<group>"; };
-		8A2B0E941FB8EC6200FFD57C /* AdminMenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdminMenuViewController.m; sourceTree = "<group>"; };
 		8A2B0EA41FB8EFDC00FFD57C /* SPRSerialQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPRSerialQueue.h; sourceTree = "<group>"; };
 		8A2B0EA51FB8EFDC00FFD57C /* SPRAsyncOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPRAsyncOperation.h; sourceTree = "<group>"; };
 		8A2B0EA61FB8EFDC00FFD57C /* NSOperation+SPRKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSOperation+SPRKit.m"; sourceTree = "<group>"; };
@@ -64,6 +45,22 @@
 		8A2B0EA91FB8EFDC00FFD57C /* SPRSerialQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPRSerialQueue.m; sourceTree = "<group>"; };
 		8A2B0EAE1FB8F1EC00FFD57C /* BBHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBHelper.h; sourceTree = "<group>"; };
 		8A2B0EAF1FB8F1EC00FFD57C /* BBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBHelper.m; sourceTree = "<group>"; };
+		8A2B0EB21FB8F55F00FFD57C /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		8A2B0EB31FB8F55F00FFD57C /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		8A2B0EB51FB8F56E00FFD57C /* MainMenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
+		8A2B0EB61FB8F56E00FFD57C /* MainMenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
+		8A2B0EB81FB8F57E00FFD57C /* AdminMenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdminMenuViewController.h; sourceTree = "<group>"; };
+		8A2B0EB91FB8F57E00FFD57C /* AdminMenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdminMenuViewController.m; sourceTree = "<group>"; };
+		8A2B0EBB1FB8F59F00FFD57C /* PlayersCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayersCollectionViewController.h; sourceTree = "<group>"; };
+		8A2B0EBC1FB8F59F00FFD57C /* PlayersCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayersCollectionViewController.m; sourceTree = "<group>"; };
+		8A2B0EBE1FB8F5C400FFD57C /* CameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		8A2B0EBF1FB8F5C400FFD57C /* CameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		8A2B0EC11FB8F5D400FFD57C /* PlayersTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayersTableViewController.h; sourceTree = "<group>"; };
+		8A2B0EC21FB8F5D400FFD57C /* PlayersTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayersTableViewController.m; sourceTree = "<group>"; };
+		8A2B0EC41FB8F5E100FFD57C /* SignInsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignInsTableViewController.h; sourceTree = "<group>"; };
+		8A2B0EC51FB8F5E100FFD57C /* SignInsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignInsTableViewController.m; sourceTree = "<group>"; };
+		8A2B0EC71FB8F5EC00FFD57C /* BattlesTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BattlesTableViewController.h; sourceTree = "<group>"; };
+		8A2B0EC81FB8F5EC00FFD57C /* BattlesTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BattlesTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,24 +109,22 @@
 		8A2B0E7D1FB8EAA900FFD57C /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				8A2B0E7A1FB8EAA000FFD57C /* LoginViewController.h */,
-				8A2B0E7B1FB8EAA000FFD57C /* LoginViewController.m */,
-				8A2B0E7E1FB8EACE00FFD57C /* MainMenuViewController.h */,
-				8A2B0E7F1FB8EACE00FFD57C /* MainMenuViewController.m */,
-				8A2B0E811FB8EAE200FFD57C /* PlayerDetailViewController.h */,
-				8A2B0E821FB8EAE200FFD57C /* PlayerDetailViewController.m */,
-				8A2B0E841FB8EB4800FFD57C /* CameraViewController.h */,
-				8A2B0E851FB8EB4800FFD57C /* CameraViewController.m */,
-				8A2B0E871FB8EB9F00FFD57C /* SelectPlayerCollectionViewController.h */,
-				8A2B0E881FB8EB9F00FFD57C /* SelectPlayerCollectionViewController.m */,
-				8A2B0E8A1FB8EBE700FFD57C /* PlayersTableViewController.h */,
-				8A2B0E8B1FB8EBE700FFD57C /* PlayersTableViewController.m */,
-				8A2B0E8D1FB8EBF200FFD57C /* SignInsTableViewController.h */,
-				8A2B0E8E1FB8EBF200FFD57C /* SignInsTableViewController.m */,
-				8A2B0E901FB8EBFC00FFD57C /* BattlesTableViewController.h */,
-				8A2B0E911FB8EBFC00FFD57C /* BattlesTableViewController.m */,
-				8A2B0E931FB8EC6200FFD57C /* AdminMenuViewController.h */,
-				8A2B0E941FB8EC6200FFD57C /* AdminMenuViewController.m */,
+				8A2B0EB21FB8F55F00FFD57C /* LoginViewController.h */,
+				8A2B0EB31FB8F55F00FFD57C /* LoginViewController.m */,
+				8A2B0EB51FB8F56E00FFD57C /* MainMenuViewController.h */,
+				8A2B0EB61FB8F56E00FFD57C /* MainMenuViewController.m */,
+				8A2B0EB81FB8F57E00FFD57C /* AdminMenuViewController.h */,
+				8A2B0EB91FB8F57E00FFD57C /* AdminMenuViewController.m */,
+				8A2B0EBB1FB8F59F00FFD57C /* PlayersCollectionViewController.h */,
+				8A2B0EBC1FB8F59F00FFD57C /* PlayersCollectionViewController.m */,
+				8A2B0EBE1FB8F5C400FFD57C /* CameraViewController.h */,
+				8A2B0EBF1FB8F5C400FFD57C /* CameraViewController.m */,
+				8A2B0EC11FB8F5D400FFD57C /* PlayersTableViewController.h */,
+				8A2B0EC21FB8F5D400FFD57C /* PlayersTableViewController.m */,
+				8A2B0EC41FB8F5E100FFD57C /* SignInsTableViewController.h */,
+				8A2B0EC51FB8F5E100FFD57C /* SignInsTableViewController.m */,
+				8A2B0EC71FB8F5EC00FFD57C /* BattlesTableViewController.h */,
+				8A2B0EC81FB8F5EC00FFD57C /* BattlesTableViewController.m */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -246,22 +241,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A2B0EBD1FB8F59F00FFD57C /* PlayersCollectionViewController.m in Sources */,
+				8A2B0EB41FB8F55F00FFD57C /* LoginViewController.m in Sources */,
 				8A127BB21FB8CBD900FFDFEA /* PLMDF_Testing.xcdatamodeld in Sources */,
 				8A2B0EAC1FB8EFDC00FFD57C /* SPRSerialQueue.m in Sources */,
-				8A2B0E951FB8EC6200FFD57C /* AdminMenuViewController.m in Sources */,
 				8A2B0EAB1FB8EFDC00FFD57C /* SPRAsyncOperation.m in Sources */,
-				8A2B0E921FB8EBFC00FFD57C /* BattlesTableViewController.m in Sources */,
-				8A2B0E891FB8EB9F00FFD57C /* SelectPlayerCollectionViewController.m in Sources */,
+				8A2B0EB71FB8F56E00FFD57C /* MainMenuViewController.m in Sources */,
+				8A2B0EBA1FB8F57E00FFD57C /* AdminMenuViewController.m in Sources */,
 				8A127BBA1FB8CBD900FFDFEA /* main.m in Sources */,
 				8A127BA91FB8CBD900FFDFEA /* AppDelegate.m in Sources */,
-				8A2B0E7C1FB8EAA000FFD57C /* LoginViewController.m in Sources */,
+				8A2B0EC01FB8F5C400FFD57C /* CameraViewController.m in Sources */,
 				8A2B0EB01FB8F1EC00FFD57C /* BBHelper.m in Sources */,
-				8A2B0E8F1FB8EBF200FFD57C /* SignInsTableViewController.m in Sources */,
-				8A2B0E831FB8EAE200FFD57C /* PlayerDetailViewController.m in Sources */,
-				8A2B0E8C1FB8EBE700FFD57C /* PlayersTableViewController.m in Sources */,
-				8A2B0E861FB8EB4800FFD57C /* CameraViewController.m in Sources */,
 				8A2B0EAA1FB8EFDC00FFD57C /* NSOperation+SPRKit.m in Sources */,
-				8A2B0E801FB8EACE00FFD57C /* MainMenuViewController.m in Sources */,
+				8A2B0EC91FB8F5EC00FFD57C /* BattlesTableViewController.m in Sources */,
+				8A2B0EC31FB8F5D400FFD57C /* PlayersTableViewController.m in Sources */,
+				8A2B0EC61FB8F5E100FFD57C /* SignInsTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,18 +1,18 @@
 //
-//  SelectPlayerCollectionViewController.m
+//  PlayersCollectionViewController.m
 //  PLMDF Testing
 //
 //  Created by Bill Bruce on 11/12/17.
 //  Copyright © 2017 Bill Bruce. All rights reserved.
 //
 
-#import "SelectPlayerCollectionViewController.h"
+#import "PlayersCollectionViewController.h"
 
-@interface SelectPlayerCollectionViewController ()
+@interface PlayersCollectionViewController ()
 
 @end
 
-@implementation SelectPlayerCollectionViewController
+@implementation PlayersCollectionViewController
 
 static NSString * const reuseIdentifier = @"Cell";
 

@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CameraViewController : ViewController
+@interface CameraViewController : UIViewController
 
 @end
