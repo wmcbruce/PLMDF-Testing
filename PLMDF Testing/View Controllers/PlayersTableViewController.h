@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PlayersTableViewController.h
 //  PLMDF Testing
 //
 //  Created by Bill Bruce on 11/12/17.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface PlayersTableViewController : UITableViewController
 
 @end
-

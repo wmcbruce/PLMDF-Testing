@@ -8,26 +8,50 @@
 
 /* Begin PBXBuildFile section */
 		8A127BA91FB8CBD900FFDFEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A127BA81FB8CBD900FFDFEA /* AppDelegate.m */; };
-		8A127BAC1FB8CBD900FFDFEA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A127BAB1FB8CBD900FFDFEA /* ViewController.m */; };
 		8A127BAF1FB8CBD900FFDFEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A127BAD1FB8CBD900FFDFEA /* Main.storyboard */; };
 		8A127BB21FB8CBD900FFDFEA /* PLMDF_Testing.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8A127BB01FB8CBD900FFDFEA /* PLMDF_Testing.xcdatamodeld */; };
 		8A127BB41FB8CBD900FFDFEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A127BB31FB8CBD900FFDFEA /* Assets.xcassets */; };
 		8A127BB71FB8CBD900FFDFEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A127BB51FB8CBD900FFDFEA /* LaunchScreen.storyboard */; };
 		8A127BBA1FB8CBD900FFDFEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A127BB91FB8CBD900FFDFEA /* main.m */; };
+		8A2B0E7C1FB8EAA000FFD57C /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2B0E7B1FB8EAA000FFD57C /* LoginViewController.m */; };
+		8A2B0E801FB8EACE00FFD57C /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2B0E7F1FB8EACE00FFD57C /* MainMenuViewController.m */; };
+		8A2B0E831FB8EAE200FFD57C /* PlayerDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2B0E821FB8EAE200FFD57C /* PlayerDetailViewController.m */; };
+		8A2B0E861FB8EB4800FFD57C /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2B0E851FB8EB4800FFD57C /* CameraViewController.m */; };
+		8A2B0E891FB8EB9F00FFD57C /* SelectPlayerCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2B0E881FB8EB9F00FFD57C /* SelectPlayerCollectionViewController.m */; };
+		8A2B0E8C1FB8EBE700FFD57C /* PlayersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2B0E8B1FB8EBE700FFD57C /* PlayersTableViewController.m */; };
+		8A2B0E8F1FB8EBF200FFD57C /* SignInsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2B0E8E1FB8EBF200FFD57C /* SignInsTableViewController.m */; };
+		8A2B0E921FB8EBFC00FFD57C /* BattlesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2B0E911FB8EBFC00FFD57C /* BattlesTableViewController.m */; };
+		8A2B0E951FB8EC6200FFD57C /* AdminMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2B0E941FB8EC6200FFD57C /* AdminMenuViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8A127BA41FB8CBD900FFDFEA /* PLMDF Testing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PLMDF Testing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A127BA71FB8CBD900FFDFEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8A127BA81FB8CBD900FFDFEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8A127BAA1FB8CBD900FFDFEA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8A127BAB1FB8CBD900FFDFEA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8A127BAE1FB8CBD900FFDFEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A127BB11FB8CBD900FFDFEA /* PLMDF_Testing.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PLMDF_Testing.xcdatamodel; sourceTree = "<group>"; };
 		8A127BB31FB8CBD900FFDFEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A127BB61FB8CBD900FFDFEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A127BB81FB8CBD900FFDFEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A127BB91FB8CBD900FFDFEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8A2B0E7A1FB8EAA000FFD57C /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		8A2B0E7B1FB8EAA000FFD57C /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		8A2B0E7E1FB8EACE00FFD57C /* MainMenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
+		8A2B0E7F1FB8EACE00FFD57C /* MainMenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
+		8A2B0E811FB8EAE200FFD57C /* PlayerDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayerDetailViewController.h; sourceTree = "<group>"; };
+		8A2B0E821FB8EAE200FFD57C /* PlayerDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayerDetailViewController.m; sourceTree = "<group>"; };
+		8A2B0E841FB8EB4800FFD57C /* CameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		8A2B0E851FB8EB4800FFD57C /* CameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		8A2B0E871FB8EB9F00FFD57C /* SelectPlayerCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectPlayerCollectionViewController.h; sourceTree = "<group>"; };
+		8A2B0E881FB8EB9F00FFD57C /* SelectPlayerCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectPlayerCollectionViewController.m; sourceTree = "<group>"; };
+		8A2B0E8A1FB8EBE700FFD57C /* PlayersTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayersTableViewController.h; sourceTree = "<group>"; };
+		8A2B0E8B1FB8EBE700FFD57C /* PlayersTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayersTableViewController.m; sourceTree = "<group>"; };
+		8A2B0E8D1FB8EBF200FFD57C /* SignInsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignInsTableViewController.h; sourceTree = "<group>"; };
+		8A2B0E8E1FB8EBF200FFD57C /* SignInsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignInsTableViewController.m; sourceTree = "<group>"; };
+		8A2B0E901FB8EBFC00FFD57C /* BattlesTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BattlesTableViewController.h; sourceTree = "<group>"; };
+		8A2B0E911FB8EBFC00FFD57C /* BattlesTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BattlesTableViewController.m; sourceTree = "<group>"; };
+		8A2B0E931FB8EC6200FFD57C /* AdminMenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdminMenuViewController.h; sourceTree = "<group>"; };
+		8A2B0E941FB8EC6200FFD57C /* AdminMenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdminMenuViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,16 +86,40 @@
 			children = (
 				8A127BA71FB8CBD900FFDFEA /* AppDelegate.h */,
 				8A127BA81FB8CBD900FFDFEA /* AppDelegate.m */,
-				8A127BAA1FB8CBD900FFDFEA /* ViewController.h */,
-				8A127BAB1FB8CBD900FFDFEA /* ViewController.m */,
 				8A127BAD1FB8CBD900FFDFEA /* Main.storyboard */,
 				8A127BB31FB8CBD900FFDFEA /* Assets.xcassets */,
 				8A127BB51FB8CBD900FFDFEA /* LaunchScreen.storyboard */,
 				8A127BB81FB8CBD900FFDFEA /* Info.plist */,
 				8A127BB91FB8CBD900FFDFEA /* main.m */,
 				8A127BB01FB8CBD900FFDFEA /* PLMDF_Testing.xcdatamodeld */,
+				8A2B0E7D1FB8EAA900FFD57C /* View Controllers */,
 			);
 			path = "PLMDF Testing";
+			sourceTree = "<group>";
+		};
+		8A2B0E7D1FB8EAA900FFD57C /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8A2B0E7A1FB8EAA000FFD57C /* LoginViewController.h */,
+				8A2B0E7B1FB8EAA000FFD57C /* LoginViewController.m */,
+				8A2B0E7E1FB8EACE00FFD57C /* MainMenuViewController.h */,
+				8A2B0E7F1FB8EACE00FFD57C /* MainMenuViewController.m */,
+				8A2B0E811FB8EAE200FFD57C /* PlayerDetailViewController.h */,
+				8A2B0E821FB8EAE200FFD57C /* PlayerDetailViewController.m */,
+				8A2B0E841FB8EB4800FFD57C /* CameraViewController.h */,
+				8A2B0E851FB8EB4800FFD57C /* CameraViewController.m */,
+				8A2B0E871FB8EB9F00FFD57C /* SelectPlayerCollectionViewController.h */,
+				8A2B0E881FB8EB9F00FFD57C /* SelectPlayerCollectionViewController.m */,
+				8A2B0E8A1FB8EBE700FFD57C /* PlayersTableViewController.h */,
+				8A2B0E8B1FB8EBE700FFD57C /* PlayersTableViewController.m */,
+				8A2B0E8D1FB8EBF200FFD57C /* SignInsTableViewController.h */,
+				8A2B0E8E1FB8EBF200FFD57C /* SignInsTableViewController.m */,
+				8A2B0E901FB8EBFC00FFD57C /* BattlesTableViewController.h */,
+				8A2B0E911FB8EBFC00FFD57C /* BattlesTableViewController.m */,
+				8A2B0E931FB8EC6200FFD57C /* AdminMenuViewController.h */,
+				8A2B0E941FB8EC6200FFD57C /* AdminMenuViewController.m */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,10 +193,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A127BAC1FB8CBD900FFDFEA /* ViewController.m in Sources */,
 				8A127BB21FB8CBD900FFDFEA /* PLMDF_Testing.xcdatamodeld in Sources */,
+				8A2B0E951FB8EC6200FFD57C /* AdminMenuViewController.m in Sources */,
+				8A2B0E921FB8EBFC00FFD57C /* BattlesTableViewController.m in Sources */,
+				8A2B0E891FB8EB9F00FFD57C /* SelectPlayerCollectionViewController.m in Sources */,
 				8A127BBA1FB8CBD900FFDFEA /* main.m in Sources */,
 				8A127BA91FB8CBD900FFDFEA /* AppDelegate.m in Sources */,
+				8A2B0E7C1FB8EAA000FFD57C /* LoginViewController.m in Sources */,
+				8A2B0E8F1FB8EBF200FFD57C /* SignInsTableViewController.m in Sources */,
+				8A2B0E831FB8EAE200FFD57C /* PlayerDetailViewController.m in Sources */,
+				8A2B0E8C1FB8EBE700FFD57C /* PlayersTableViewController.m in Sources */,
+				8A2B0E861FB8EB4800FFD57C /* CameraViewController.m in Sources */,
+				8A2B0E801FB8EACE00FFD57C /* MainMenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
