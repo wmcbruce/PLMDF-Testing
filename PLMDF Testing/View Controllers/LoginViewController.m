@@ -7,6 +7,7 @@
 //
 
 #import "LoginViewController.h"
+#import "LoginHelper.h"
 
 @interface LoginViewController ()
 
@@ -34,4 +35,7 @@
 }
 */
 
+- (IBAction)loginButtonTapped:(id)sender {
+    [LoginHelper LoginwithUserID:_userNameTextField.text andPassword:_passwordTextField.text];
+}
 @end

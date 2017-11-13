@@ -13,6 +13,7 @@
 		8A127BB41FB8CBD900FFDFEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A127BB31FB8CBD900FFDFEA /* Assets.xcassets */; };
 		8A127BB71FB8CBD900FFDFEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A127BB51FB8CBD900FFDFEA /* LaunchScreen.storyboard */; };
 		8A127BBA1FB8CBD900FFDFEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A127BB91FB8CBD900FFDFEA /* main.m */; };
+		8A13B9201FB94F1600C5E7CE /* LoginHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A13B91F1FB94F1600C5E7CE /* LoginHelper.m */; };
 		8A2B0EAA1FB8EFDC00FFD57C /* NSOperation+SPRKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2B0EA61FB8EFDC00FFD57C /* NSOperation+SPRKit.m */; };
 		8A2B0EAB1FB8EFDC00FFD57C /* SPRAsyncOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2B0EA81FB8EFDC00FFD57C /* SPRAsyncOperation.m */; };
 		8A2B0EAC1FB8EFDC00FFD57C /* SPRSerialQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2B0EA91FB8EFDC00FFD57C /* SPRSerialQueue.m */; };
@@ -25,9 +26,12 @@
 		8A2B0EC31FB8F5D400FFD57C /* PlayersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2B0EC21FB8F5D400FFD57C /* PlayersTableViewController.m */; };
 		8A2B0EC61FB8F5E100FFD57C /* SignInsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2B0EC51FB8F5E100FFD57C /* SignInsTableViewController.m */; };
 		8A2B0EC91FB8F5EC00FFD57C /* BattlesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2B0EC81FB8F5EC00FFD57C /* BattlesTableViewController.m */; };
+		F2426C7F4506F2EB476FACDB /* libPods-PLMDF Testing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF611E0C9C0B748BFD4E03A /* libPods-PLMDF Testing.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1FC8A13678B43D8435460F73 /* Pods-PLMDF Testing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PLMDF Testing.release.xcconfig"; path = "Pods/Target Support Files/Pods-PLMDF Testing/Pods-PLMDF Testing.release.xcconfig"; sourceTree = "<group>"; };
+		4CF611E0C9C0B748BFD4E03A /* libPods-PLMDF Testing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PLMDF Testing.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A127BA41FB8CBD900FFDFEA /* PLMDF Testing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PLMDF Testing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A127BA71FB8CBD900FFDFEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8A127BA81FB8CBD900FFDFEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -37,6 +41,8 @@
 		8A127BB61FB8CBD900FFDFEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A127BB81FB8CBD900FFDFEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A127BB91FB8CBD900FFDFEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8A13B91E1FB94F1600C5E7CE /* LoginHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginHelper.h; sourceTree = "<group>"; };
+		8A13B91F1FB94F1600C5E7CE /* LoginHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginHelper.m; sourceTree = "<group>"; };
 		8A2B0EA41FB8EFDC00FFD57C /* SPRSerialQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPRSerialQueue.h; sourceTree = "<group>"; };
 		8A2B0EA51FB8EFDC00FFD57C /* SPRAsyncOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPRAsyncOperation.h; sourceTree = "<group>"; };
 		8A2B0EA61FB8EFDC00FFD57C /* NSOperation+SPRKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSOperation+SPRKit.m"; sourceTree = "<group>"; };
@@ -61,6 +67,7 @@
 		8A2B0EC51FB8F5E100FFD57C /* SignInsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignInsTableViewController.m; sourceTree = "<group>"; };
 		8A2B0EC71FB8F5EC00FFD57C /* BattlesTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BattlesTableViewController.h; sourceTree = "<group>"; };
 		8A2B0EC81FB8F5EC00FFD57C /* BattlesTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BattlesTableViewController.m; sourceTree = "<group>"; };
+		8F6060E35B0CFF5134D3F9DC /* Pods-PLMDF Testing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PLMDF Testing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PLMDF Testing/Pods-PLMDF Testing.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,17 +75,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2426C7F4506F2EB476FACDB /* libPods-PLMDF Testing.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D92FD8E1D50497206B42584 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F6060E35B0CFF5134D3F9DC /* Pods-PLMDF Testing.debug.xcconfig */,
+				1FC8A13678B43D8435460F73 /* Pods-PLMDF Testing.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8A127B9B1FB8CBD900FFDFEA = {
 			isa = PBXGroup;
 			children = (
 				8A127BA61FB8CBD900FFDFEA /* PLMDF Testing */,
 				8A127BA51FB8CBD900FFDFEA /* Products */,
+				3D92FD8E1D50497206B42584 /* Pods */,
+				AC8A8D948FDC04D4DD847592 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -143,6 +162,8 @@
 			children = (
 				8A2B0EB11FB8F1F700FFD57C /* BBHelper */,
 				8A2B0EAD1FB8EFEC00FFD57C /* SPR Kit */,
+				8A13B91E1FB94F1600C5E7CE /* LoginHelper.h */,
+				8A13B91F1FB94F1600C5E7CE /* LoginHelper.m */,
 			);
 			path = "DF Classes";
 			sourceTree = "<group>";
@@ -170,6 +191,14 @@
 			path = BBHelper;
 			sourceTree = "<group>";
 		};
+		AC8A8D948FDC04D4DD847592 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CF611E0C9C0B748BFD4E03A /* libPods-PLMDF Testing.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -177,9 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A127BBD1FB8CBD900FFDFEA /* Build configuration list for PBXNativeTarget "PLMDF Testing" */;
 			buildPhases = (
+				F96C6099831ED71936552F9B /* [CP] Check Pods Manifest.lock */,
 				8A127BA01FB8CBD900FFDFEA /* Sources */,
 				8A127BA11FB8CBD900FFDFEA /* Frameworks */,
 				8A127BA21FB8CBD900FFDFEA /* Resources */,
+				6DE43ECDBC32B1F8C5779EDD /* [CP] Embed Pods Frameworks */,
+				28BFF5FC2477C56D4920C374 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,12 +268,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		28BFF5FC2477C56D4920C374 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PLMDF Testing/Pods-PLMDF Testing-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DE43ECDBC32B1F8C5779EDD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PLMDF Testing/Pods-PLMDF Testing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F96C6099831ED71936552F9B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8A127BA01FB8CBD900FFDFEA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8A2B0EBD1FB8F59F00FFD57C /* PlayersCollectionViewController.m in Sources */,
+				8A13B9201FB94F1600C5E7CE /* LoginHelper.m in Sources */,
 				8A2B0EB41FB8F55F00FFD57C /* LoginViewController.m in Sources */,
 				8A127BB21FB8CBD900FFDFEA /* PLMDF_Testing.xcdatamodeld in Sources */,
 				8A2B0EAC1FB8EFDC00FFD57C /* SPRSerialQueue.m in Sources */,
@@ -387,6 +468,7 @@
 		};
 		8A127BBE1FB8CBD900FFDFEA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F6060E35B0CFF5134D3F9DC /* Pods-PLMDF Testing.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -401,6 +483,7 @@
 		};
 		8A127BBF1FB8CBD900FFDFEA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FC8A13678B43D8435460F73 /* Pods-PLMDF Testing.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
