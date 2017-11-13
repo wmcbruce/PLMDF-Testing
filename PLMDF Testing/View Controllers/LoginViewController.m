@@ -38,4 +38,16 @@
 - (IBAction)loginButtonTapped:(id)sender {
     [LoginHelper LoginwithUserID:_userNameTextField.text andPassword:_passwordTextField.text];
 }
+
+- (void)receiveLoginResponse:(NSDictionary*) responseDictionary {
+    
+}
+
+- (void)registerForNotifications {
+    //setup notifications
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(receiveLoginResponse:)
+                                                 name:@"ReceiveLoginResponse"
+                                               object:nil];
+}
 @end

@@ -26,6 +26,7 @@
 		8A2B0EC31FB8F5D400FFD57C /* PlayersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2B0EC21FB8F5D400FFD57C /* PlayersTableViewController.m */; };
 		8A2B0EC61FB8F5E100FFD57C /* SignInsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2B0EC51FB8F5E100FFD57C /* SignInsTableViewController.m */; };
 		8A2B0EC91FB8F5EC00FFD57C /* BattlesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2B0EC81FB8F5EC00FFD57C /* BattlesTableViewController.m */; };
+		8AA6854F1FBA4F090047DBE1 /* DFAWSClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA6854E1FBA4F090047DBE1 /* DFAWSClient.m */; };
 		F2426C7F4506F2EB476FACDB /* libPods-PLMDF Testing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF611E0C9C0B748BFD4E03A /* libPods-PLMDF Testing.a */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +68,8 @@
 		8A2B0EC51FB8F5E100FFD57C /* SignInsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignInsTableViewController.m; sourceTree = "<group>"; };
 		8A2B0EC71FB8F5EC00FFD57C /* BattlesTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BattlesTableViewController.h; sourceTree = "<group>"; };
 		8A2B0EC81FB8F5EC00FFD57C /* BattlesTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BattlesTableViewController.m; sourceTree = "<group>"; };
+		8AA6854D1FBA4F090047DBE1 /* DFAWSClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DFAWSClient.h; path = "PLMDF Testing/DF Classes/DFAWSClient.h"; sourceTree = SOURCE_ROOT; };
+		8AA6854E1FBA4F090047DBE1 /* DFAWSClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DFAWSClient.m; path = "PLMDF Testing/DF Classes/DFAWSClient.m"; sourceTree = SOURCE_ROOT; };
 		8F6060E35B0CFF5134D3F9DC /* Pods-PLMDF Testing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PLMDF Testing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PLMDF Testing/Pods-PLMDF Testing.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -160,10 +163,11 @@
 		8A2B0E971FB8ECBC00FFD57C /* DF Classes */ = {
 			isa = PBXGroup;
 			children = (
+				8AA6854D1FBA4F090047DBE1 /* DFAWSClient.h */,
+				8AA6854E1FBA4F090047DBE1 /* DFAWSClient.m */,
 				8A2B0EB11FB8F1F700FFD57C /* BBHelper */,
 				8A2B0EAD1FB8EFEC00FFD57C /* SPR Kit */,
-				8A13B91E1FB94F1600C5E7CE /* LoginHelper.h */,
-				8A13B91F1FB94F1600C5E7CE /* LoginHelper.m */,
+				8AA6854C1FBA4D370047DBE1 /* Login Helper */,
 			);
 			path = "DF Classes";
 			sourceTree = "<group>";
@@ -189,6 +193,15 @@
 				8A2B0EAF1FB8F1EC00FFD57C /* BBHelper.m */,
 			);
 			path = BBHelper;
+			sourceTree = "<group>";
+		};
+		8AA6854C1FBA4D370047DBE1 /* Login Helper */ = {
+			isa = PBXGroup;
+			children = (
+				8A13B91E1FB94F1600C5E7CE /* LoginHelper.h */,
+				8A13B91F1FB94F1600C5E7CE /* LoginHelper.m */,
+			);
+			path = "Login Helper";
 			sourceTree = "<group>";
 		};
 		AC8A8D948FDC04D4DD847592 /* Frameworks */ = {
@@ -321,6 +334,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AA6854F1FBA4F090047DBE1 /* DFAWSClient.m in Sources */,
 				8A2B0EBD1FB8F59F00FFD57C /* PlayersCollectionViewController.m in Sources */,
 				8A13B9201FB94F1600C5E7CE /* LoginHelper.m in Sources */,
 				8A2B0EB41FB8F55F00FFD57C /* LoginViewController.m in Sources */,
