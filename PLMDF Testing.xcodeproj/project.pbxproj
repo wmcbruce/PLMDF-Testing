@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A06EA431FBA92C30000F716 /* PlayerDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A06EA421FBA92C30000F716 /* PlayerDetailViewController.m */; };
 		8A127BA91FB8CBD900FFDFEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A127BA81FB8CBD900FFDFEA /* AppDelegate.m */; };
 		8A127BAF1FB8CBD900FFDFEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A127BAD1FB8CBD900FFDFEA /* Main.storyboard */; };
 		8A127BB21FB8CBD900FFDFEA /* PLMDF_Testing.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8A127BB01FB8CBD900FFDFEA /* PLMDF_Testing.xcdatamodeld */; };
@@ -26,6 +27,7 @@
 		8A2B0EC31FB8F5D400FFD57C /* PlayersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2B0EC21FB8F5D400FFD57C /* PlayersTableViewController.m */; };
 		8A2B0EC61FB8F5E100FFD57C /* SignInsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2B0EC51FB8F5E100FFD57C /* SignInsTableViewController.m */; };
 		8A2B0EC91FB8F5EC00FFD57C /* BattlesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2B0EC81FB8F5EC00FFD57C /* BattlesTableViewController.m */; };
+		8A4C00C01FBA5F1200867252 /* notification sample.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4C00BF1FBA5F1200867252 /* notification sample.m */; };
 		8AA6854F1FBA4F090047DBE1 /* DFAWSClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA6854E1FBA4F090047DBE1 /* DFAWSClient.m */; };
 		F2426C7F4506F2EB476FACDB /* libPods-PLMDF Testing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF611E0C9C0B748BFD4E03A /* libPods-PLMDF Testing.a */; };
 /* End PBXBuildFile section */
@@ -33,6 +35,8 @@
 /* Begin PBXFileReference section */
 		1FC8A13678B43D8435460F73 /* Pods-PLMDF Testing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PLMDF Testing.release.xcconfig"; path = "Pods/Target Support Files/Pods-PLMDF Testing/Pods-PLMDF Testing.release.xcconfig"; sourceTree = "<group>"; };
 		4CF611E0C9C0B748BFD4E03A /* libPods-PLMDF Testing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PLMDF Testing.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A06EA411FBA92C30000F716 /* PlayerDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayerDetailViewController.h; sourceTree = "<group>"; };
+		8A06EA421FBA92C30000F716 /* PlayerDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayerDetailViewController.m; sourceTree = "<group>"; };
 		8A127BA41FB8CBD900FFDFEA /* PLMDF Testing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PLMDF Testing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A127BA71FB8CBD900FFDFEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8A127BA81FB8CBD900FFDFEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -68,6 +72,8 @@
 		8A2B0EC51FB8F5E100FFD57C /* SignInsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignInsTableViewController.m; sourceTree = "<group>"; };
 		8A2B0EC71FB8F5EC00FFD57C /* BattlesTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BattlesTableViewController.h; sourceTree = "<group>"; };
 		8A2B0EC81FB8F5EC00FFD57C /* BattlesTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BattlesTableViewController.m; sourceTree = "<group>"; };
+		8A4C00BE1FBA5F1200867252 /* notification sample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "notification sample.h"; sourceTree = "<group>"; };
+		8A4C00BF1FBA5F1200867252 /* notification sample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "notification sample.m"; sourceTree = "<group>"; };
 		8AA6854D1FBA4F090047DBE1 /* DFAWSClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DFAWSClient.h; path = "PLMDF Testing/DF Classes/DFAWSClient.h"; sourceTree = SOURCE_ROOT; };
 		8AA6854E1FBA4F090047DBE1 /* DFAWSClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DFAWSClient.m; path = "PLMDF Testing/DF Classes/DFAWSClient.m"; sourceTree = SOURCE_ROOT; };
 		8F6060E35B0CFF5134D3F9DC /* Pods-PLMDF Testing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PLMDF Testing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PLMDF Testing/Pods-PLMDF Testing.debug.xcconfig"; sourceTree = "<group>"; };
@@ -147,6 +153,8 @@
 				8A2B0EC51FB8F5E100FFD57C /* SignInsTableViewController.m */,
 				8A2B0EC71FB8F5EC00FFD57C /* BattlesTableViewController.h */,
 				8A2B0EC81FB8F5EC00FFD57C /* BattlesTableViewController.m */,
+				8A06EA411FBA92C30000F716 /* PlayerDetailViewController.h */,
+				8A06EA421FBA92C30000F716 /* PlayerDetailViewController.m */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -168,6 +176,8 @@
 				8A2B0EB11FB8F1F700FFD57C /* BBHelper */,
 				8A2B0EAD1FB8EFEC00FFD57C /* SPR Kit */,
 				8AA6854C1FBA4D370047DBE1 /* Login Helper */,
+				8A4C00BE1FBA5F1200867252 /* notification sample.h */,
+				8A4C00BF1FBA5F1200867252 /* notification sample.m */,
 			);
 			path = "DF Classes";
 			sourceTree = "<group>";
@@ -345,10 +355,12 @@
 				8A2B0EBA1FB8F57E00FFD57C /* AdminMenuViewController.m in Sources */,
 				8A127BBA1FB8CBD900FFDFEA /* main.m in Sources */,
 				8A127BA91FB8CBD900FFDFEA /* AppDelegate.m in Sources */,
+				8A06EA431FBA92C30000F716 /* PlayerDetailViewController.m in Sources */,
 				8A2B0EC01FB8F5C400FFD57C /* CameraViewController.m in Sources */,
 				8A2B0EB01FB8F1EC00FFD57C /* BBHelper.m in Sources */,
 				8A2B0EAA1FB8EFDC00FFD57C /* NSOperation+SPRKit.m in Sources */,
 				8A2B0EC91FB8F5EC00FFD57C /* BattlesTableViewController.m in Sources */,
+				8A4C00C01FBA5F1200867252 /* notification sample.m in Sources */,
 				8A2B0EC31FB8F5D400FFD57C /* PlayersTableViewController.m in Sources */,
 				8A2B0EC61FB8F5E100FFD57C /* SignInsTableViewController.m in Sources */,
 			);

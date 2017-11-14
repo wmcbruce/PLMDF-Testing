@@ -54,16 +54,17 @@
                         <outlet property="loginButton" destination="ndQ-tU-b4a" id="bMo-aU-6f7"/>
                         <outlet property="passwordTextField" destination="jlh-Cz-fuD" id="FGL-DH-dY5"/>
                         <outlet property="userNameTextField" destination="qK7-ys-Vh5" id="7vK-3w-Iki"/>
+                        <segue destination="X4m-sZ-Vgv" kind="show" identifier="showMainMenu" id="3kt-ay-lhZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="59" y="132"/>
+            <point key="canvasLocation" x="-644" y="132"/>
         </scene>
         <!--Main Menu-->
         <scene sceneID="Zur-wR-eOy">
             <objects>
-                <viewController title="Main Menu" id="X4m-sZ-Vgv" sceneMemberID="viewController">
+                <viewController title="Main Menu" id="X4m-sZ-Vgv" customClass="MainMenuViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ifz-ez-Mmt">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -74,10 +75,13 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n6Y-uD-H9P">
                                         <rect key="frame" x="8" y="0.0" width="77" height="30"/>
                                         <state key="normal" title="New Player"/>
+                                        <connections>
+                                            <segue destination="NCi-qG-t38" kind="show" identifier="showPlayerDetail" id="nZ6-cj-nc8"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l3S-Ze-k0A">
-                                        <rect key="frame" x="23" y="40" width="47" height="30"/>
-                                        <state key="normal" title="Sign In"/>
+                                        <rect key="frame" x="19" y="40" width="55" height="30"/>
+                                        <state key="normal" title="Sign Ins"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zx3-Rb-rNh">
                                         <rect key="frame" x="0.0" y="80" width="93" height="30"/>
@@ -100,12 +104,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JEx-37-K1N" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="703" y="132"/>
+            <point key="canvasLocation" x="113" y="132"/>
         </scene>
         <!--Player Detail-->
         <scene sceneID="VqO-Om-hRJ">
             <objects>
-                <viewController title="Player Detail" id="NCi-qG-t38" sceneMemberID="viewController">
+                <viewController title="Player Detail" id="NCi-qG-t38" customClass="PlayerDetailViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hTH-OP-Lmu">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -125,6 +129,9 @@
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h8S-st-h0D">
                                                         <rect key="frame" x="90" y="310" width="120" height="30"/>
                                                         <state key="normal" title="Edit Profile Image"/>
+                                                        <connections>
+                                                            <segue destination="Utg-3u-fBD" kind="show" identifier="showCamera" id="mQE-dB-gNc"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -309,12 +316,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PWv-tR-sdB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1379.6875" y="131.8359375"/>
+            <point key="canvasLocation" x="867" y="132"/>
         </scene>
         <!--Camera-->
         <scene sceneID="S9i-x4-kiN">
             <objects>
-                <viewController title="Camera" id="Utg-3u-fBD" sceneMemberID="viewController">
+                <viewController title="Camera" id="Utg-3u-fBD" customClass="CameraViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hDn-Gs-P7R">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -324,12 +331,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Un-FU-btL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1384" y="-551"/>
+            <point key="canvasLocation" x="1647" y="132"/>
         </scene>
         <!--Sign In List-->
         <scene sceneID="ZeC-HA-jSf">
             <objects>
-                <tableViewController title="Sign In List" id="xfK-7N-qiT" sceneMemberID="viewController">
+                <tableViewController title="Sign In List" id="xfK-7N-qiT" customClass="SignInsTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="CMn-4Q-IDS">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -352,12 +359,12 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vfP-hG-fWw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-643" y="819"/>
+            <point key="canvasLocation" x="-645" y="821"/>
         </scene>
         <!--Battle List-->
         <scene sceneID="gLq-zl-3yO">
             <objects>
-                <tableViewController title="Battle List" id="Kj9-b5-rCu" sceneMemberID="viewController">
+                <tableViewController title="Battle List" id="Kj9-b5-rCu" customClass="BattlesTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="ltg-QS-chS">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -380,12 +387,12 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ChA-6r-SI0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="27" y="819"/>
+            <point key="canvasLocation" x="113" y="821"/>
         </scene>
         <!--Player Table-->
         <scene sceneID="KA6-Xp-fad">
             <objects>
-                <tableViewController title="Player Table" id="JZw-tb-9wg" sceneMemberID="viewController">
+                <tableViewController title="Player Table" id="JZw-tb-9wg" customClass="PlayersTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="r1H-OK-FHz">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -408,12 +415,12 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fZ2-QN-ifB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="691" y="822"/>
+            <point key="canvasLocation" x="866" y="821"/>
         </scene>
         <!--Select Player-->
         <scene sceneID="3lY-7u-do9">
             <objects>
-                <collectionViewController title="Select Player" id="YZR-WI-8rh" sceneMemberID="viewController">
+                <collectionViewController title="Select Player" id="YZR-WI-8rh" customClass="PlayersCollectionViewController" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="vJf-3M-yDZ">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -470,7 +477,7 @@
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="1384.375" y="817.96875"/>
+            <point key="canvasLocation" x="1647" y="821"/>
         </scene>
     </scenes>
 </document>
