@@ -130,6 +130,7 @@
                                                         <rect key="frame" x="90" y="310" width="120" height="30"/>
                                                         <state key="normal" title="Edit Profile Image"/>
                                                         <connections>
+                                                            <action selector="editProfileImage:" destination="NCi-qG-t38" eventType="touchUpInside" id="uZT-ZC-p1Z"/>
                                                             <segue destination="Utg-3u-fBD" kind="show" identifier="showCamera" id="mQE-dB-gNc"/>
                                                         </connections>
                                                     </button>
@@ -313,6 +314,18 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="N9x-ys-IUm"/>
                     </view>
+                    <connections>
+                        <outlet property="battleTableView" destination="Ytu-Tn-Rwr" id="YEU-VX-mkv"/>
+                        <outlet property="birthdayTextField" destination="G3n-UX-RPS" id="ol1-wQ-kTb"/>
+                        <outlet property="editProfileImageButton" destination="h8S-st-h0D" id="2Mg-FJ-Gnr"/>
+                        <outlet property="emailTextField" destination="tbZ-hH-aRo" id="v6d-Jb-bDb"/>
+                        <outlet property="firstNameTextField" destination="CvV-Ej-5kw" id="fJq-iw-6yl"/>
+                        <outlet property="lastNameTextField" destination="VBd-yJ-JcH" id="nwH-JT-Jgu"/>
+                        <outlet property="phoneTextField" destination="aZ6-pE-chI" id="ayb-Rc-xTY"/>
+                        <outlet property="playerIDTextField" destination="El1-zb-2UE" id="GkJ-og-e1v"/>
+                        <outlet property="profileImageView" destination="hg4-xD-A45" id="ajF-uh-Gdi"/>
+                        <outlet property="signInTableView" destination="45d-ds-fYt" id="fVB-y9-XqK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PWv-tR-sdB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

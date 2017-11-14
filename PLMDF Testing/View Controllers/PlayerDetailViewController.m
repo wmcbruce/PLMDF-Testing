@@ -17,6 +17,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    if (_player) {
+        _playerIDTextField.text = _player.playerId;
+        _firstNameTextField.text = _player.firstName;
+        _lastNameTextField.text = _player.lastName;
+        _emailTextField.text = _player.email;
+        _phoneTextField.text = _player.phone;
+        _birthdayTextField.text = _player.birthday;
+        //next line won't work...
+        //_profileImageView.image = [UIImage imageNamed:_player.profileImage];
+        
+    }
 }
 
 - (void)didReceiveMemoryWarning {
@@ -34,4 +46,7 @@
 }
 */
 
+- (IBAction)editProfileImage:(id)sender {
+    
+}
 @end
