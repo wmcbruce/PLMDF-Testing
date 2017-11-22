@@ -10,6 +10,23 @@
 
 @interface playerJSONModel : NSObject
 
+/*
+ PLAYER JSON STRUCTURE
+ {
+ "playerId": "123456",
+ "firstName": "John",
+ "lastName": "Doe",
+ "email": "jdoe@gmail.com",
+ "phone": "847-555-1212",
+ "birthday": "11/11/2017",
+ "image": "https://cdn...",
+ "dateCreated": "11/11/2017",
+ "dateUpdated": "11/11/2017",
+ "isActive": true,
+ "isSignedIn": false
+ }
+ */
+
 @property (nonatomic, weak) NSString * objid;
 @property (nonatomic, weak) NSString * playerId;
 @property (nonatomic, weak) NSString * firstName;

@@ -31,6 +31,8 @@
 		8A5905C01FBAA1E900D6380D /* playerJSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5905BF1FBAA1E900D6380D /* playerJSONModel.m */; };
 		8AA6854F1FBA4F090047DBE1 /* DFAWSClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA6854E1FBA4F090047DBE1 /* DFAWSClient.m */; };
 		8ABA46D61FBBB4B900644A0F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ABA46D51FBBB4AA00644A0F /* Security.framework */; };
+		8AD123B41FC529FE002D81A9 /* battleJSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD123B31FC529FE002D81A9 /* battleJSONModel.m */; };
+		8AD123B71FC52A0B002D81A9 /* signInJSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD123B61FC52A0B002D81A9 /* signInJSONModel.m */; };
 		F2426C7F4506F2EB476FACDB /* libPods-PLMDF Testing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF611E0C9C0B748BFD4E03A /* libPods-PLMDF Testing.a */; };
 /* End PBXBuildFile section */
 
@@ -81,6 +83,10 @@
 		8AA6854D1FBA4F090047DBE1 /* DFAWSClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DFAWSClient.h; path = "PLMDF Testing/DF Classes/DFAWSClient.h"; sourceTree = SOURCE_ROOT; };
 		8AA6854E1FBA4F090047DBE1 /* DFAWSClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DFAWSClient.m; path = "PLMDF Testing/DF Classes/DFAWSClient.m"; sourceTree = SOURCE_ROOT; };
 		8ABA46D51FBBB4AA00644A0F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		8AD123B21FC529FE002D81A9 /* battleJSONModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = battleJSONModel.h; sourceTree = "<group>"; };
+		8AD123B31FC529FE002D81A9 /* battleJSONModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = battleJSONModel.m; sourceTree = "<group>"; };
+		8AD123B51FC52A0B002D81A9 /* signInJSONModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = signInJSONModel.h; sourceTree = "<group>"; };
+		8AD123B61FC52A0B002D81A9 /* signInJSONModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = signInJSONModel.m; sourceTree = "<group>"; };
 		8F6060E35B0CFF5134D3F9DC /* Pods-PLMDF Testing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PLMDF Testing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PLMDF Testing/Pods-PLMDF Testing.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -215,8 +221,12 @@
 		8A5905BD1FBAA1C700D6380D /* JSON Models */ = {
 			isa = PBXGroup;
 			children = (
+				8AD123B21FC529FE002D81A9 /* battleJSONModel.h */,
+				8AD123B31FC529FE002D81A9 /* battleJSONModel.m */,
 				8A5905BE1FBAA1E900D6380D /* playerJSONModel.h */,
 				8A5905BF1FBAA1E900D6380D /* playerJSONModel.m */,
+				8AD123B51FC52A0B002D81A9 /* signInJSONModel.h */,
+				8AD123B61FC52A0B002D81A9 /* signInJSONModel.m */,
 			);
 			path = "JSON Models";
 			sourceTree = "<group>";
@@ -376,11 +386,13 @@
 				8A06EA431FBA92C30000F716 /* PlayerDetailViewController.m in Sources */,
 				8A2B0EC01FB8F5C400FFD57C /* CameraViewController.m in Sources */,
 				8A2B0EB01FB8F1EC00FFD57C /* BBHelper.m in Sources */,
+				8AD123B41FC529FE002D81A9 /* battleJSONModel.m in Sources */,
 				8A2B0EAA1FB8EFDC00FFD57C /* NSOperation+SPRKit.m in Sources */,
 				8A2B0EC91FB8F5EC00FFD57C /* BattlesTableViewController.m in Sources */,
 				8A4C00C01FBA5F1200867252 /* notification sample.m in Sources */,
 				8A2B0EC31FB8F5D400FFD57C /* PlayersTableViewController.m in Sources */,
 				8A2B0EC61FB8F5E100FFD57C /* SignInsTableViewController.m in Sources */,
+				8AD123B71FC52A0B002D81A9 /* signInJSONModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
