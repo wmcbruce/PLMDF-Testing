@@ -30,6 +30,7 @@
 		8A4C00C01FBA5F1200867252 /* notification sample.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4C00BF1FBA5F1200867252 /* notification sample.m */; };
 		8A5905C01FBAA1E900D6380D /* playerJSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5905BF1FBAA1E900D6380D /* playerJSONModel.m */; };
 		8AA6854F1FBA4F090047DBE1 /* DFAWSClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA6854E1FBA4F090047DBE1 /* DFAWSClient.m */; };
+		8ABA46D61FBBB4B900644A0F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ABA46D51FBBB4AA00644A0F /* Security.framework */; };
 		F2426C7F4506F2EB476FACDB /* libPods-PLMDF Testing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF611E0C9C0B748BFD4E03A /* libPods-PLMDF Testing.a */; };
 /* End PBXBuildFile section */
 
@@ -79,6 +80,7 @@
 		8A5905BF1FBAA1E900D6380D /* playerJSONModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = playerJSONModel.m; sourceTree = "<group>"; };
 		8AA6854D1FBA4F090047DBE1 /* DFAWSClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DFAWSClient.h; path = "PLMDF Testing/DF Classes/DFAWSClient.h"; sourceTree = SOURCE_ROOT; };
 		8AA6854E1FBA4F090047DBE1 /* DFAWSClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DFAWSClient.m; path = "PLMDF Testing/DF Classes/DFAWSClient.m"; sourceTree = SOURCE_ROOT; };
+		8ABA46D51FBBB4AA00644A0F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		8F6060E35B0CFF5134D3F9DC /* Pods-PLMDF Testing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PLMDF Testing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PLMDF Testing/Pods-PLMDF Testing.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8ABA46D61FBBB4B900644A0F /* Security.framework in Frameworks */,
 				F2426C7F4506F2EB476FACDB /* libPods-PLMDF Testing.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -230,6 +233,7 @@
 		AC8A8D948FDC04D4DD847592 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8ABA46D51FBBB4AA00644A0F /* Security.framework */,
 				4CF611E0C9C0B748BFD4E03A /* libPods-PLMDF Testing.a */,
 			);
 			name = Frameworks;

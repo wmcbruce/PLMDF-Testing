@@ -58,8 +58,8 @@
         [self.defaults synchronize];
         
         //[self biometricConfig];
-        
-        //load main menu...
+                
+        //load main menu...        
         [self performSegueWithIdentifier:@"showMainMenu" sender:self];
     } else {
         //login failed.  show error

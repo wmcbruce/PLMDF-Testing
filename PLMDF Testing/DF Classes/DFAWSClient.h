@@ -15,31 +15,32 @@
  Require: Username, Password
  Return: Session Token or Error
  */
+-(void) loginWithUserName:(NSString*) username andPassword:(NSString*) password;
 
 //GetPlayers
 /*
  Require: None
  Return: "resource" JSON array
-    {
-        "resource": [
-            {
-                "_id": "5a0758f1ca044f12d51dd7f2",
-                "playerId": "123457",
-                "firstName": "Jane",
-                "lastName": "Doe",
-                "email": "janedoe@gmail.com",
-                "phone": "847-555-1212",
-                "birthday": "1980-11-11",
-                "image": "https://cdn...",
-                "dateCreated": "2017-11-11",
-                "dateUpdated": "2017-11-11",
-                "isActive": true,
-                "isSignedIn": false
-            }
-        ]
-    }
-*/
--(void) loginWithUserName:(NSString*) username andPassword:(NSString*) password;
+ {
+ "resource": [
+ {
+ "_id": "5a0758f1ca044f12d51dd7f2",
+ "playerId": "123457",
+ "firstName": "Jane",
+ "lastName": "Doe",
+ "email": "janedoe@gmail.com",
+ "phone": "847-555-1212",
+ "birthday": "1980-11-11",
+ "image": "https://cdn...",
+ "dateCreated": "2017-11-11",
+ "dateUpdated": "2017-11-11",
+ "isActive": true,
+ "isSignedIn": false
+ }
+ ]
+ }
+ */
+-(void) getPlayers;
 
 //GetBattles
 /*
